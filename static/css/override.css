@@ -65,7 +65,7 @@ html body {
 .darker-orange {
   color: red !important ;
   background-color: red !important;
-  border: 1px solid red !important;
+  border: 0px solid red !important;
 }
 .summary-leads {
   background-repeat: no-repeat;
@@ -88,6 +88,7 @@ html body {
 
 .top-container {
   background-image: url("/static/img/background-circles.png");
+  background-repeat: repeat;
 }
 
 .interior-leading-image {
@@ -404,7 +405,7 @@ html body {
 }
 
 .fresh-leads {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .fresh-leads-card {
@@ -683,7 +684,7 @@ html body {
 
 .navbar-toggler-red {
   color: #ff0000;
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -700,7 +701,7 @@ html body {
 }
 
 .btn-search {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 .triangle-container {
   padding-right 0px;
@@ -765,6 +766,8 @@ html body {
 
 .red-container {
   background-color: rgba(224, 43, 32, 1.0);
+  border: 0px dashed blue;
+  padding: 10px;
 }
 
 .red-bar-holder {
@@ -789,8 +792,8 @@ html body {
 }
 
 .col-service {
-  margin: 10px;
-  padding-bottom: 10px;
+  margin: 0px;
+  padding-bottom: 70px;
   border: 0px solid blue;
   text-align: center;
 
@@ -819,6 +822,7 @@ html body {
   padding: 0px;
   padding-top: 40px;
   text-align: center;
+  border: 0px solid green;
 }
 
 .col-break-service {
@@ -961,4 +965,42 @@ html body {
   background: transparent;
   color: #cfcfcf;
   border: 0px;
+}
+
+.nav-home-test {
+  border: 0px solid red;
+}
+
+.search-link{
+  color: white;
+  padding-right: 20px;
+}
+.search-link:hover {
+  color: white;
+}
+
+.leading-col {
+  padding: 40px;
+}
+.leading-text{
+  letter-spacing: 0px;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.row-services {
+  border: 0px solid green;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.leading-sub-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+.non-full-row {
+  width: 100%;
 }
