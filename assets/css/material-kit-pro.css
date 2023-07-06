@@ -20574,7 +20574,7 @@ fieldset:disabled .btn {
 
 .btn-success .btn.bg-outline-success,
 .btn.bg-gradient-success .btn.bg-outline-success {
-  border: 1px solid #4CAF50;
+  border: 1px solid #ffffff;
 }
 
 .btn-success:not(:disabled):not(.disabled).active,
@@ -22550,6 +22550,14 @@ label,
 }
 
 .bg-gradient-success {
+  background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
+}
+
+.bg-gradient-cordince {
+  background-image: linear-gradient(300deg, #a3152d 0%, #eb3e32 100%)
+}
+
+.bg-gradient-cordince-alt {
   background-image: linear-gradient(195deg, #66BB6A 0%, #43A047 100%);
 }
 
