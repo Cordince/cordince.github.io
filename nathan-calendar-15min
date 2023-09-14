@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.location.href = "https://calendly.com/nathan-calendar/15min";
+    </script>
+</head>
+<body>
+    <p>Redirecting to a different domain...</p>
+</body>
+</html>
