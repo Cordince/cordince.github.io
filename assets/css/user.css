@@ -1,0 +1,626 @@
+
+.icon-stack {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1rem;
+  background-color: #f2f6fc;
+}
+.icon-stack svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon-stack-lg {
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.5rem;
+}
+.icon-stack-lg svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon-stack-xl {
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+}
+.icon-stack-xl svg {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.soft-bg-warning {
+  background-color: RGBA(254, 240, 232, var(--bs-bg-opacity, 1)) !important;
+}
+
+.soft-bg-info {
+  background-color: RGBA(230, 239, 252, var(--bs-bg-opacity, 1)) !important;
+}
+
+.soft-bg-success {
+  background-color: RGBA(224, 250, 239, var(--bs-bg-opacity, 1)) !important;
+}
+
+.soft-bg-danger{
+  background-color: RGBA(254, 230, 239, var(--bs-bg-opacity, 1)) !important;
+}
+
+.soft-bg-light { 
+  background-color: RGBA(238, 240, 242, var(--bs-bg-opacity, 1)) !important;
+}
+
+.lift {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.lift:hover {
+  transform: translateY(-0.3333333333rem);
+  box-shadow: 0 0.5rem 2rem 0 rgba(33, 40, 50, 0.25);
+}
+.lift:active {
+  transform: none;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
+
+.lift-sm {
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(33, 40, 50, 0.2);
+}
+.lift-sm:hover {
+  transform: translateY(-0.1666666667rem);
+  box-shadow: 0 0.25rem 1rem 0 rgba(33, 40, 50, 0.25);
+}
+.lift-sm:active {
+  transform: none;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(33, 40, 50, 0.2);
+}
+
+.card.lift {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.fs-error {
+  font-size: 7rem;
+  font-weight: 900;
+}
+@media (min-width: 576px) {
+  .fs-error {
+    font-size: 10rem;
+    font-weight: 900;
+  }
+}
+
+
+.title-font { 
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 576px) {
+  .title-font {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+.sub-title-font { 
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.title-font-smaller { 
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+@media (min-width: 576px) {
+  .title-font-smaller {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+
+
+.text-gray-400 { 
+  color: #ced4da;
+}
+
+.text-gray-500 { 
+  color: #adb5bd;
+
+}
+
+.text-gray-600 { 
+  color: #6c757d;
+
+}
+
+.bg-gradient-prospects-blue {
+  background-image: linear-gradient(195deg, #2056a2 0%, #194a96 100%);
+}
+
+.min-vh-5 {
+  min-height: 5vh !important;
+}
+
+.min-vh-10 {
+  min-height: 10vh !important;
+}
+
+.min-vh-30 {
+  min-height: 30vh !important;
+}
+
+.min-vh-40 {
+  min-height: 40vh !important;
+}
+
+.form-device-wrapper {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(33, 40, 50, 0.4);
+  padding: 10px;
+}
+
+
+.enterprise-back {
+  background-color: #333333;
+}
+
+.pro-background{
+  background-color: #ffeab6;
+}
+
+.prospector-background {
+  background-color: #d0f0fd;
+}
+
+.title-text {
+  font-size: "1.5rem";
+  font-weight: 700;
+}
+
+
+.content-skewed {
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}
+
+.content-skewed-right {
+  perspective-origin: right center;
+}
+.content-skewed-right .content-skewed-item {
+  transform: rotateY(30deg) rotateX(15deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.content-skewed-left {
+  perspective-origin: left center;
+}
+.content-skewed-left .content-skewed-item {
+  transform: rotateY(-30deg) rotateX(15deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.btn-cordince-red {
+  background-color: #da291c;
+  border-color: #da291c;
+  color: white;
+}
+.btn-cordince-red:hover {
+  background-color: #da291c;
+  border-color: #da291c;
+  color: white;
+}
+
+.btn-outline-cordince-red {
+  border-color: #da291c;
+  color: #da291c;
+}
+
+.text-cordince-red { 
+  color: #da291c;
+}
+
+
+/* Custom background for extra small devices (default) */               
+.custom-subscription-bg {                                               
+  
+background-image: url('/static/assets/img/cordince/image-contact1-faded.jpg');
+background-size: 120%;
+background-position-x: 100%;
+background-repeat: no-repeat;             
+}                                                                       
+                                                                        
+/* Custom background for medium devices (>=768px) */                    
+@media (min-width: 768px) {                                             
+  .custom-subscription-bg {                                                    
+    background-image: url('/static/assets/img/cordince/mockup_home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;            
+  }                                                                     
+}                                                                       
+
+.engineering-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-boutique.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {                                             
+  .engineering-section {                                                    
+    background-position: 80% 25%;
+    overflow: hidden;
+  }                                                                     
+}                                                                       
+
+.mobile-engineering-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-engineering-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+
+
+.data-pipeline-section { 
+  /* height: 100vh; */
+  background-image: url('/static/assets/img/cordince/image-building-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-data-pipeline-section { 
+  background-image: url('/static/assets/img/cordince/image-building-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.data-pipeline-one-on-one-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/image-building-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-data-pipeline-one-on-one-section { 
+  background-image: url('/static/assets/img/cordince/image-building-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.data-pipeline-group-learning-section { 
+  /* height: 100vh; */
+  background-image: url('/static/assets/img/cordince/image-building-3-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-data-pipeline-group-learning-section { 
+  background-image: url('/static/assets/img/cordince/image-building-3-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.testimonials-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/image-shapes-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-testimonials-section { 
+  background-image: url('/static/assets/img/cordince/image-shapes-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.featured-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/image-shapes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-featured-section { 
+  background-image: url('/static/assets/img/cordince/image-shapes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dual-section { 
+  /* height: 100vh; */
+  background-image: url('/static/assets/img/cordince/image-building.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.blog-detail-section { 
+  height: 100vh;
+}
+.mobile-blog-detail-section { 
+  height: 100vh;
+}
+
+
+.blog-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-blog1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {                                             
+  .blog-section {                                                    
+    background-position: 80% 25%;
+    overflow: hidden;
+  }                                                                     
+}                                                                       
+
+.mobile-blog-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-blog-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+
+
+
+.data-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-solo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {                                             
+  .data-section {                                                    
+    background-position: 80% 25%;
+    overflow: hidden;
+  }                                                                     
+}            
+.mobile-data-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-solo-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+.about-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-about1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {                                             
+  .about-section {                                                    
+    background-position: 80% 25%;
+    overflow: hidden;
+  }                                                                     
+}                                                                       
+
+.mobile-about-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-about-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+.blog-entry-section { 
+  /* height: 100vh; */
+  background-image: url('/static/assets/img/cordince/article-single-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobile-blog-entry-section { 
+  height: 40vh;
+  background-image: url('/static/assets/img/cordince/article-single-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+
+.landing-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-home1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 768px) {                                             
+  .landing-section {                                                    
+    background-position: 80% 25%;
+    overflow: hidden;
+  }                                                                     
+}                                                                       
+
+.mobile-landing-section { 
+  height: 100vh;
+  background-image: url('/static/assets/img/cordince/intro-home-tablet1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+.left-side-overlay { 
+  /* gradient between dark blue and gray */
+  background-image: linear-gradient(to right, #000000, #333333);
+  opacity: 0.7;
+}
+
+.huge-landing { 
+  /* font size is 10x bigger than usual */
+  font-size: 5.5rem;
+  font-weight: bold;
+  /* font spacing is closer together vertically */
+  line-height: 1.1;
+}
+
+.medium-landing { 
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+@media (min-width: 576px) {
+  .medium-landing {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+.navbar-cordince { 
+  background: transparent !important;
+  /* disable shadow from navbar */
+  box-shadow: none !important;
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+
+.cordince-bottom-large { 
+  color: white !important;
+  font-size: 1rem !important;
+}
+
+.navbar-spacer {
+  padding-left: 100px;
+
+}
+
+.navbar-transparent-top { 
+  background-color: transparent !important;
+  /* disable shadow from navbar */
+  box-shadow: none !important;  
+}
+
+.top-search-cordince { 
+  color: white !important;
+}
+
+.cordince-border { 
+  border: 1px solid white !important;
+}
+
+.cordince-red-border { 
+  border: 1px solid #da291c !important;
+}
+
+.no-right-side-border { 
+  border-right: 0px !important;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.no-left-side-border { 
+  border-left: 0px !important;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.topnav-smaller { 
+  font-size: 0.75rem !important;
+  color: white !important;
+}
+
+.sub-main-nav { 
+  position: relative;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.override-sib-containter { 
+  border: 1px solid red !important;
+}
+
+.blueish-overlay { 
+  background: linear-gradient(to right, #000000, #333333);
+  opacity: 0.7; 
+}
+
+.autobiography-section { 
+  height: 75vh;
+  background-image: url('/static/assets/img/cordince/image-building-3-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-autobiography-section { 
+  background-image: url('/static/assets/img/cordince/image-building-3-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cordince-red-background {
+  background-color: #da291c;
+  opacity: 0.7;
+}
+
+#carousel-custom-dots button {                                      
+  background-color: gray; /* Gray color for dots */                 
+  border: none;                                                     
+  border-radius: 50%;                                               
+  width: 10px;                                                      
+  height: 10px;                                                     
+  margin: 0 4px;                                                    
+}                                                                   
+                                                                    
+#carousel-custom-dots button.active {                               
+  background-color: #da291c; /* Blue color for the active dot */       
+}                                                           .carousel-control-prev, .carousel-control-next {                                          
+    bottom: 0; /* Position at the bottom */
+    top: auto; /* Override default top positioning */
+}
+
+.carousel-item-full { 
+  min-height: 600px;
+}
+
+.btn-outline-white:focus { 
+  color: red !important;
+  background-color:white;
+  border-color: red !important;
+}
+/* 
+* { 
+  border: 1px solid red;  
+} */
+ 

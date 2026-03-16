@@ -1,0 +1,1393 @@
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5J16SBYK"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-DP5J16SBYK');
+	</script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+  <title>
+    Data Pipelines - Cordince Organ Engineering
+  </title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <script src="../assets/js/fontawesome42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link id="pagestyle" href="../assets/css/material-kit-pro.css" rel="stylesheet" />
+  <link id="userstyle" href="../assets/css/user.css" rel="stylesheet" />
+<style>
+  #main-navbar {
+      transition: top 0.3s;
+  }
+</style>
+</head>
+
+
+<body class="">
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="always-on-main-navbar" >
+    <div class="container-fluid pt-3 pb-2">
+        <div class="row g-0">
+            <div class="col d-flex align-items-center  ">
+                <a href="../index.html" >
+                    <img src="../static/assets/img/cordince/Cordince_title_large.png">
+                </a>
+                <div class="ms-5 ps-5">
+                  <a class="" href="../engineering/index.html">Engineering</a>
+                </div>
+                <div class="ms-5">
+                  <a class="" href="index.html">Data</a>
+                </div>
+                <div class="ms-5">
+                  <a class="" href="../blog/index.html">Blog</a>
+                </div>
+                <div class="ms-5">
+                  <a class="" href="../about/index.html">About</a>
+                </div>
+                <div class="ms-5 me-2 d-none d-md-block ">
+                  <svg width="50px" height="30px" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,5 L 90,5 M 85,1 L 100,5 L 85,9" stroke="#ff6666" stroke-width="1" fill="none">
+                      <animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" begin="0s" repeatCount="indefinite" />
+                    </path>
+                    <style>
+                      svg:hover path {
+                        animation: scrollArrow 1s linear infinite;
+                      }
+                      @keyframes scrollArrow {
+                        from {
+                          transform: translateX(0);
+                        }
+                        to {
+                          transform: translateX(10px);
+                        }
+                      }
+                    </style>
+                  </svg>
+                </div>
+                <div class="">
+                  <a class="" href="../contact/index.html">Contact</a>
+                </div>
+    
+                <div class="ms-5 ms-auto d-flex justify-content-end text-end">
+                    <a class="nav-link" href="../speaking/index.html">Speaking</a>
+                </div><!-- right side div -->
+            </div><!-- col -->
+        </div><!-- row -->
+    </div>
+</nav>
+  <nav id="mobileNavBar" class="d-lg-none navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid p-0 m-0">
+      <a class="ms-0 ps-0" href="../index.html" >
+        <img src="../static/assets/img/cordince/Cordince_title_small.png">
+      </a>
+      
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          
+        <ul class="navbar-nav pb-5 ps-3">
+            <li class="nav-item mt-4 mb-3">
+                <a class="nav-link fs-3 font-weight-bold" href="../speaking/index.html">Speaking</a>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-3 font-weight-bold" href="../engineering/index.html">Engineering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 font-weight-bold" href="index.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 font-weight-bold" href="../blog/index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 font-weight-bold" href="../about/index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-3 font-weight-bold" href="../contact/index.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+  <section class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="data-section d-none d-lg-block d-flex justify-content-center align-items-center">
+  <div class="container-fluid p-0 m-0 ">
+    <div class="row g-0">
+      <div class="col" style="margin-top: 200px;">
+
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-8 ps-5 ms-5">
+        <span class="huge-landing text-white text-uppercase d-md-none">
+          Data Pipelines: World class experiment tracking
+        </span>
+        <span class="medium-landing text-white text-uppercase d-none d-md-flex">
+          Data Pipelines: World class experiment tracking
+        </span>
+        
+        <a href="#offering-section">
+          <span class="d-none d-md-block mt-5 pt-5">
+            <svg width="22px" height="102px" viewBox="0 0 22 102" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#ffffff" fill-rule="nonzero">
+                    <path d="M12 .5h-2v100h2z"></path>
+                    <path d="M20.193 89.586L9.586 100.192 11 101.607 21.607 91z"></path>
+                    <path d="M1.808 89.586L.393 91 11 101.607l1.414-1.414z"></path>
+                </g>
+            </svg>
+          </span>
+        </a>
+      <div><!-- col -->      
+    </div><!-- row -->
+  </div><!-- container -->
+  
+
+</section>
+
+  <section class="mobile-data-section d-flex d-lg-none justify-content-center pt-3 mt-3">
+
+    <div class="container-fluid p-0 m-0">
+      <div class="row g-0">
+        <div class="col-8 ms-3 mt-5 pt-5">
+          <span class="text-white fs-1 font-weight-bold">
+          Data Pipelines: World class experiment tracking
+
+          </span>        
+        </div><!-- col -->
+      </div><!-- row -->
+      <div class="row g-0">
+        <div class="col-8 ms-3">
+          <a href="#offering-section">
+            <span class="mt-5 pt-5">
+              <svg width="22px" height="102px" viewBox="0 0 22 102" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="#ffffff" fill-rule="nonzero">
+                      <path d="M12 .5h-2v100h2z"></path>
+                      <path d="M20.193 89.586L9.586 100.192 11 101.607 21.607 91z"></path>
+                      <path d="M1.808 89.586L.393 91 11 101.607l1.414-1.414z"></path>
+                  </g>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+</section>
+  
+
+  <section id="offering-section" class="data-pipeline-section d-none d-md-flex">
+    <div class="container-fluid">
+      <div class="row m-5 pt-5 pb-5">
+        <div class="col-12 col-xl-6 pt-md-3 ">
+
+          <span class="fs-2 text-bold text-cordince-red text-uppercase">Priceless advice to build successful data pipelines, tailored to your needs</span>
+          <div>
+            
+            <div class="mt-5">
+              <a href="#oneonone" class="fs-6 btn btn-cordince-red text-white">
+                  ONE-ON-ONE ENGAGEMENTS<i class="material-icons ">arrow_forward</i>
+                  </a>
+              <div class="text-dark fs-5 pb-3">
+                Create a more successful data-pipeline by partnering with a consultant who’s walked in your shoes and achieved your goals.
+              </div>
+
+              <div class="mt-5">
+                <a href="#grouplearning" class="fs-6 btn btn-cordince-red text-white">
+                    GROUP LEARNING OPPORTUNITIES<i class="material-icons ">arrow_forward</i>
+                    </a>
+                <div class="text-dark fs-5">
+                  Learn how to grow your data pipeline from log files to spreadsheets, matlab scripts and 'gold versions' in a dynamic, team environment or via online programs.
+                </div>
+  
+            </div>
+          </div>
+        </div><!-- col -->
+        <div class="col">
+        </div><!-- col -->
+      </div><!--row -->
+    </div><!-- container -->
+  </section>
+
+  <section class="d-md-none mobile-data-pipeline-section d-flex justify-content-center align-items-center ">
+    <div class="container-fluid py-5 my-5 py-md-0 my-md-0">
+      <div class="row m-md-5 pt-md-5 pb-md-5">
+        <div class="col col-md-6 pt-md-3 ms-md-5 ">
+
+          <span class="fs-2 text-bold text-cordince-red text-uppercase">Solve your organ engineering challenges</span>
+          <div>
+            
+            <div class="mt-5">
+              <a href="#mobileoneonone" class="fs-6 btn btn-cordince-red text-white">
+                  ONE-ON-ONE ENGAGEMENTS<i class="material-icons ">arrow_forward</i>
+                  </a>
+              <div class="text-dark fs-5 pb-3">
+                Create a more successful data-pipeline by partnering with a consultant who’s walked in your shoes and achieved your goals.
+              </div>
+
+              <div class="mt-5">
+                <a href="#mobilegrouplearning" class="fs-6 btn btn-cordince-red text-white">
+                    GROUP LEARNING OPPORTUNITITES<i class="material-icons ">arrow_forward</i>
+                    </a>
+                <div class="text-dark fs-5">
+                  Learn how to grow your data pipeline from log files to spreadsheets, matlab scripts and 'gold versions' in a dynamic, team environment or via online programs.
+                </div>
+  
+            </div>
+          </div>
+        </div><!-- col -->
+        <div class="col">
+        </div><!-- col -->
+      </div><!--row -->
+    </div><!-- container -->
+  </section>
+
+  <section id="oneonone" class="data-pipeline-one-on-one-section d-none d-md-flex">
+    <div class="container">
+
+      <div class="row mt-5">
+        <div class="col">
+          <div class="ms-5 mt-5 mb-5 fs-2 text-dark text-uppercase font-weight-bold">
+              One-on-One Engagements
+          </div>
+        </div><!-- col -->
+        <!-- create a column aligned to the right-->
+        <div class="col text-end d-none d-lg-block">
+          <div class="mt-5">
+            <a href="#grouplearning" class="text-cordince-red">
+              Group Learning Activities <i class="material-icons ">arrow_forward</i>
+              </a>
+          </div>
+        </div>
+      </div><!--row -->
+
+      <div class="row mb-3">
+        <div class="col-8">
+          <style>
+            .nav-link.active {
+              color: red;
+            }
+            .nav-link {
+              color: black;
+            }
+          </style>
+          
+          <ul class="nav fs-4 justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#tab1" data-bs-toggle="tab">1. Rapid Response Advice</a>
+            </li>
+            <li>/</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab2" data-bs-toggle="tab">2. Coaching Program</a>
+            </li>
+            <li>/</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tab3" data-bs-toggle="tab">3. One-Day Intensive</a>
+            </li>
+          </ul>        </div><!-- col -->
+      </div><!-- row -->
+      
+      <div class="row">
+        <div class="col">
+          <div class="tab-content">
+            <div class="tab-pane  fade show active" id="tab1">
+              <div class="row pt-5 ps-5 fs-5 cordince-red-background text-white">
+                <div class="col">
+                  <div class="text-bold">Rapid Response Advice</div>
+                </div>
+              </div><!-- row -->
+              <div class="row p-5 fs-6 cordince-red-background text-white">
+                <div class="col mb-5">
+                  <div class="">
+
+                    Enjoy the security of having us in your corner. We have helped multiple engineering and biologist groups like yours develop more robust, higher precision data pipelines.
+
+                    Need feedback on a new data acquisition strategy? Unsure of where to turn next order of magnitude speed or quantity? Whatever your question, we've heard it, lived it, and developed and answer already proven to work.
+                  </div>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col">
+                  The Elite Engineer Mentor Program grants you unlimited access to us by phone and email. Your phone calls and emails are answered within minutes or hours. 
+                  <div class="mt-5">
+                    <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold ">
+                      Learn More<i class="material-icons ">arrow_forward</i>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- row -->
+            </div><!-- tab pane-->
+
+            <div class="tab-pane  fade  " id="tab2">
+              <div class="row pt-5 ps-5 fs-5 cordince-red-background text-white">
+                <div class="col">
+                  <div class="text-bold">Coaching Program</div>
+                </div>
+              </div><!-- row -->
+              <div class="row p-5 fs-6 cordince-red-background text-white">
+                <div class="col mb-5">
+                  <div class="">
+                    Collaborate with us in The Enhanced Experimentation Efficiency Initiative to   
+                    enhance the dependability of your experiments, ensure full chain data integrity, and minimize waste, producing more experimental results with less manual strain on your team.      
+                   
+                         <div class="mt-4">
+                      We equip you with methodologies and strategies validated to advance your   
+                      research endeavors. Together, we will identify and overcome the unseen     
+                      barriers impeding your progress, and create a strategic, well-defined plan 
+                      of action tailored to expedite your experimental success.     
+
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col">
+                  Our Enhanced Experimentation Efficiency Initiative offers a comprehensive, 
+                  individualized assessment, dynamic "3/1 Sprints" for focused progress,   bi-monthly mentorship sessions, and continuous, On-Demand Guidance. 
+  
+                  <div class="mt-4">
+
+                    Should the idea of conducting more reliable experiments, enhancing data    
+                    collection methods, and receiving expert analysis resonate with you, then  
+                    you've hit the mark. Become a member of The Intensive Experimentation      
+                    Program.  
+                  </div>
+                  <div class="mt-5">
+                    <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold">
+                      Learn More<i class="material-icons ">arrow_forward</i>
+                    </a>
+                  </div><!-- link div-->
+
+                </div><!-- col -->
+              </div><!-- row -->
+            </div><!-- tab pane-->
+            
+
+            <div class="tab-pane  fade  " id="tab3">
+              <div class="row pt-5 ps-5 fs-5 cordince-red-background text-white">
+                <div class="col">
+                  <div class="text-bold">One-Day Intensive</div>
+                </div>
+              </div><!-- row -->
+              <div class="row p-5 fs-6 cordince-red-background text-white">
+                <div class="col mb-5">
+                  Break through a plateau of complexity, get unstuck and drive your experiments to a level you always dreamed of by sitting with us for a full-throttle day of transformation.
+  
+                  <div class="mt-4">
+
+                    In your One-Day Intensive you’ll receive one-on-one attention leading to a high-power action plan for more experiments, less raw materials waste, and faster analysis.
+                    
+                  </div>
+                  <div class="mt-4">
+                    Go all in with us and we’ll go all out to help you succeed.
+                  </div>
+                  
+
+                  <div class="">
+                  </div>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col">
+                  Note: the One-Day Intensive is an exclusive program offered only to established biotechnology, R&D or academic groups.
+                  <div class="mt-5">
+                    <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold">
+                      Learn More<i class="material-icons ">arrow_forward</i>
+                    </a>
+                  </div>
+                  </div>
+                </div>
+              </div><!-- row -->
+            </div><!-- tab pane-->
+            
+            
+
+
+          </div><!-- tab content --> 
+        </div><!-- col -->
+      </div><!-- row -->
+      
+    </div><!-- container -->
+  </section>
+
+
+
+
+<section id="mobileoneonone" class="d-md-none mobile-data-pipeline-one-on-one-section d-flex justify-content-center align-items-center ">
+  <div class="container ">
+    <div class="row mt-5">
+      <div class="col">
+        <div class="mt-5 mb-5 fs-3 text-dark text-uppercase font-weight-bold">
+          One-on-One Engagements
+        </div>
+      </div><!-- col -->
+    </div><!-- row -->
+
+    <div class="row mb-3">
+      <div class="col">
+        <style>
+          .nav-link.active {
+            color: red;
+          }
+          .nav-link {
+            color: black;
+          }
+        </style>
+        
+        <ul class="nav fs-6 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#mobileoneononetab1" data-bs-toggle="tab">1. Rapid Response Advice</a>
+          </li>
+          <li class="nav-item">
+            <span>/</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mobileoneononetab2" data-bs-toggle="tab">2. Coaching Program</a>
+          </li>
+          <li class="nav-item">
+            <span>/</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mobileoneononetab3" data-bs-toggle="tab">3. One-Day Intensive</a>
+          </li>
+        </ul>
+      </div><!-- col -->
+    </div><!-- row -->
+    
+
+  <div class="row">
+    <div class="col">
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="mobileoneononetab1">
+          <div class="row pb-3 pt-3 px-2 fs-5 cordince-red-background text-white">
+            <div class="col">
+              <div class="text-bold">Rapid Response Advice</div>
+            </div>
+          </div><!-- row -->
+          <div class="row p-2 fs-6 cordince-red-background text-white">
+            <div class="col mb-5">
+              <div class="">
+
+                Enjoy the security of having us in your corner. We have helped multiple engineering and biologist groups like yours develop more robust, higher precision data pipelines.
+              </div>
+              <div class="mt-4">
+                Need feedback on a new data acquisition strategy? Unsure of where to turn next order of magnitude speed or quantity? Whatever your question, we've heard it, lived it, and developed and answer already proven to work.
+              </div>
+              <div class="mt-4">
+
+                The Elite Engineer Mentor Program grants you unlimited access to us by phone and email. Your phone calls and emails are answered within minutes or hours. 
+              </div>
+              <div class="mt-5">
+                <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold">
+                  Learn More<i class="material-icons ">arrow_forward</i>
+                </a>
+              </div>
+
+            </div>
+          </div><!-- row -->
+        </div><!-- tab-pane -->
+
+        <div class="tab-pane fade" id="mobileoneononetab2">
+          <div class="row pb-3 pt-3 px-2 fs-5 cordince-red-background text-white">
+            <div class="col">
+              <div class="text-bold">Coaching Program</div>
+            </div>
+          </div><!-- row -->
+          <div class="row p-2 fs-6 cordince-red-background text-white">
+            <div class="col mb-5">
+              <div class="">
+                Collaborate with us in The Enhanced Experimentation Efficiency Initiative to   
+                enhance the dependability of your experiments, ensure full chain data integrity, and minimize waste, producing more experimental results with less manual strain on your team.      
+                </div>
+                <div class="mt-4">
+                  We equip you with methodologies and strategies validated to advance your   
+                  research endeavors. Together, we will identify and overcome the unseen     
+                  barriers impeding your progress, and create a strategic, well-defined plan 
+                  of action tailored to expedite your experimental success.     
+                </div>
+                <div class="mt-4">
+                  Our Enhanced Experimentation Efficiency Initiative offers a comprehensive, 
+                  individualized assessment, dynamic "3/1 Sprints" for focused progress,   bi-monthly mentorship sessions, and continuous, On-Demand Guidance. 
+
+                </div>
+
+                <div class="mt-4">
+
+                  Should the idea of conducting more reliable experiments, enhancing data    
+                  collection methods, and receiving expert analysis resonate with you, then  
+                  you've hit the mark. Become a member of The Intensive Experimentation      
+                  Program.  
+                </div>
+                <div class="mt-5">
+                  <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold">
+                   Learn More<i class="material-icons ">arrow_forward</i>
+                 </a>
+                </div><!-- link div-->
+            </div>
+          </div><!-- row -->
+        </div><!-- tab-pane -->
+
+        <div class="tab-pane fade" id="mobileoneononetab3">
+          <div class="row pb-3 pt-3 px-2 fs-5 cordince-red-background text-white">
+            <div class="col">
+              <div class="text-bold">One-Day Intensive</div>
+            </div>
+          </div><!-- row -->
+          <div class="row p-2 fs-6 cordince-red-background text-white">
+            <div class="col mb-5">
+              <div class="">
+                Break through a plateau of complexity, get unstuck and drive your experiments to a level you always dreamed of by sitting with us for a full-throttle day of transformation.
+              </div>
+
+              <div class="mt-4">
+
+
+                In your One-Day Intensive you’ll receive one-on-one attention leading to a high-power action plan for more experiments, less raw materials waste, and faster analysis.
+                
+              </div>
+              <div class="mt-4">
+                Go all in with us and we’ll go all out to help you succeed.
+              </div>
+            <div class="mt-4">
+              Note: the One-Day Intensive is an exclusive program offered only to established biotechnology, R&D or academic groups.
+            </div>
+
+              <div class="mt-5">
+                <a href="../contact/index.html" class="btn btn-outline-white text-white text-bold">
+                  Learn More<i class="material-icons ">arrow_forward</i>
+                </a>
+              </div>
+            </div>
+          </div><!-- row -->
+        </div><!-- tab-pane -->
+        
+      </div><!-- tab-content --> 
+    </div><!-- col -->
+  </div><!-- row -->
+    
+</section> 
+  <section id="grouplearning" class="data-pipeline-group-learning-section  d-none d-md-flex pb-5">
+  <div class="container">
+
+    <div class="row mt-5">
+      <div class="col-8">
+        <div class="ms-5 mt-5 mb-5 fs-2 text-white text-uppercase font-weight-bold">
+            Group Learning Opportunities
+        </div>
+      </div><!-- col -->
+      <!-- create a column aligned to the right-->
+      <div class="col text-end d-none d-lg-block">
+        <div class="mt-5">
+          <a href="#oneonone" class="text-white">
+            One-on-One Engagements <i class="material-icons ">arrow_forward</i>
+            </a>
+        </div>
+      </div><!-- col -->
+    </div><!--row -->
+
+    <div class="row mb-3">
+      <div class="col">
+        <style>
+          .white-nav-link.active {
+            color: white;
+          }
+          .white-nav-link {
+            color: darkgray
+          }
+        </style>
+        
+        <ul class="nav fs-4 justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link white-nav-link active" aria-current="page" href="#grouptab1" data-bs-toggle="tab">1. Data Pipelines for Biologists</a>
+          </li>
+          <li>/</li>
+          <li class="nav-item">
+            <a class="nav-link white-nav-link" href="#grouptab2" data-bs-toggle="tab">2. Version Control and Traceability</a>
+          </li>
+          <li>/</li>
+          <li class="nav-item">
+            <a class="nav-link white-nav-link" href="#grouptab3" data-bs-toggle="tab">3. Automation Without Complication </a>
+          </li>
+        </ul>        
+      </div><!-- col -->
+    </div><!-- row -->
+      
+      <div class="row">
+        <div class="col">
+          <div class="tab-content">
+            <div class="tab-pane  fade show active" id="grouptab1">
+              <div class="row pt-5 ps-5 fs-5 bg-white">
+                <div class="col">
+                  <div class="text-bold">Data Pipelines for Biologists
+                  </div><!-- title -->
+                </div><!-- col -->
+              </div><!-- row -->
+              <div class="row p-5 fs-6 bg-white">
+                <div class="col mb-5">
+                  <div class="">
+
+                    Embark on a journey with a select group of biologists and biomedical engineers specializing in
+                    software solutions for biotechnology. Engage in a dynamic, collaborative,
+                    and virtual workshop designed to revolutionize your data management
+                    strategies.
+                  </div>
+                  <div class="mt-4">
+                    
+                    No matter your expertise in biotech, you'll be infused with innovative
+                    ideas, motivated to excel, and equipped with a comprehensive plan to
+                    navigate the next 12 months of your experimental data pipeline.
+                  </div>
+                  <div class="mt-4">
+                    
+                    During the Data Pipeline Acceleration Program, you and your peers will
+                    delve into every facet of your data management practice. From refining your
+                    data collection methods to integrating cutting-edge tools and techniques,
+                    you'll be on the express path to enhancing your research outcomes.
+                  </div>
+                  <div class="mt-4">
+                    
+                    It's energetic. It's empowering. It's educational. It's the most engaging
+                    and productive group experience for software engineers and biologists in the
+                    biotech field.
+                  </div>
+                </div>
+                <div class="col-1">
+                </div><!-- spacer col -->
+                <div class="col">
+                  <div class="mt">
+                    Plus, it's the most thorough and data-driven approach to feature delivery you've ever seen. You'll learn techniques born from building photonics products from the ground up, and from working with tissue engineers developing processes that grow human tissue.
+                  </div>
+                  <div class="mt-4">
+                    <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                      Learn More<i class="material-icons">arrow_forward</i>
+                    </a>
+                  </div><!-- link div --->
+                </div><!-- right side col -->
+              </div><!-- row -->
+            </div><!-- tab pane-->
+
+            <div class="tab-pane  fade" id="grouptab2">
+              <div class="row pt-5 ps-5 fs-5 bg-white">
+                <div class="col">
+                  <div class="text-bold">Version Control and Traceability
+                  </div><!-- title -->
+                </div><!-- col -->
+              </div><!-- row -->
+              <div class="row p-5 fs-6 bg-white">
+                <div class="col mb-5">
+                  <div class="">
+                    Consistently increase the quality of your data acquisition process by adding version control and traceability techniques and procedures.  We understand the complexities of       
+                    managing experimental data and can show you how to build in:
+                  </div>
+                  <div class="mt-4">                                  
+                    <ul>
+                      <li>
+
+                        A robust, efficient pipeline for handling your experimental data        
+                      </li>
+                      <li>
+                        Relief from the uncertainty of managing complex datasets                
+                      </li>                    
+                      <li>
+
+                        A strategic plan for data management that's proven effective for        
+                        biologists                                                              
+                      </li>
+                      <li>
+                        The resource and time preserving benefits of a streamlined data management    
+                        system                                                                  
+                      </li>
+                      <li>
+                        Increased confidence in your data integrity and reproducibility         
+                      </li>
+                      <li>
+                        Comprehensive knowledge of data management best practices...and the                             tools to implement them                                                 
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+                <div class="col-1">
+                </div><!-- spacer col -->
+                <div class="col">
+                  <div class="mt">
+                    This includes live Q&A sessions with Nathan plus access to an online vault filled with pipeline-building lessons.
+                  </div>
+                  <div class="mt-4">
+                    <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                      Learn More<i class="material-icons">arrow_forward</i>
+                    </a>
+                  </div><!-- link div --->
+                </div><!-- right side col -->
+              </div><!-- row -->
+            </div><!-- tab pane-->
+
+            <div class="tab-pane  fade" id="grouptab3">
+              <div class="row pt-5 ps-5 fs-5 bg-white">
+                <div class="col">
+                  <div class="text-bold">Automation Without Complication
+                  </div><!-- title -->
+                </div><!-- col -->
+              </div><!-- row -->
+              <div class="row p-5 fs-6 bg-white">
+                <div class="col mb-5">
+                  <div class="">
+                    You have almost everything you need to automate your experiements without adding variability and confusion. – you’re just missing a couple of critical ingredients. Ingredients you will learn in this program.
+
+                  </div>
+                  <div class="mt-4">
+                    In this online program you’ll learn how to:
+                  </div>
+                </div>
+                <div class="col-1">
+                </div><!-- spacer col -->
+                <div class="col">
+                  <div class="">
+                    <ul>
+                      <li>
+                        Create tight loops around the data collection and evaluation steps.
+                      </li>
+                      <li>
+                        Ensure you're recording the right data at the right rates.
+                      </li>                    
+                      <li>
+                        Build automated regression tests so you know that as the experimental protocols change, your data collection won't break.
+                      </li>
+                      <li>
+                        Provide traceability at all stages in the data pipeline to ensure scientists have full confidence in the recording process.
+                      </li>
+                      <li>
+                        Add events and alerts, saving your experiments from failures and your scientists from tedious lab monitoring.
+                      </li>
+                    </ul>
+
+                  </div>
+                  <div class="mt-4">
+                    <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                      Learn More<i class="material-icons">arrow_forward</i>
+                    </a>
+                  </div><!-- link div --->
+                </div><!-- right side col -->
+              </div><!-- row -->
+            </div><!-- tab pane-->
+
+
+          </div><!-- tab content --> 
+        </div><!-- col -->
+      </div><!-- row -->
+      
+  </div><!-- container -->
+</section>
+
+
+
+
+
+<section id="mobilegrouplearning" class="d-md-none mobile-data-pipeline-group-learning-section d-flex justify-content-center align-items-center ">
+  <div class="container pb-5">
+
+    <div class="row mt-5">
+      <div class="col">
+        <div class="mt-5 mb-5 fs-3 text-white text-uppercase font-weight-bold">
+            Group Learning Opportunities
+        </div>
+      </div><!-- col -->
+    </div><!-- row -->
+
+    <div class="row mb-3">
+      <div class="col">
+        <style>
+          .white-nav-link.active {
+            color: white;
+          }
+          .white-nav-link {
+            color: darkgray;
+          }
+        </style>
+        
+        <ul class="nav fs-6 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link white-nav-link active" aria-current="page" href="#mobilegrouplearningtab1" data-bs-toggle="tab">1. Data Pipelines for Biologists</a>
+          </li>
+          <li>/</li>
+          <li class="nav-item">
+            <a class="nav-link white-nav-link" href="#mobilegrouplearningtab2" data-bs-toggle="tab">2. Version Control and Traceability</a>
+          </li>
+          <li>/</li>
+          <li class="nav-item">
+            <a class="nav-link white-nav-link" href="#mobilegrouplearningtab3" data-bs-toggle="tab">3. Automation Without Complication</a>
+          </li>
+        </ul>
+      </div><!-- col -->
+    </div><!-- row -->
+    
+    <div class="row">
+      <div class="col">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="mobilegrouplearningtab1">
+            <div class="row pb-3 pt-3 fs-5 bg-white">
+              <div class="col">
+                <div class="text-bold">Data Pipelines for Biologists</div>
+              </div>
+            </div><!-- row -->
+            <div class="row p-2 fs-6 bg-white">
+              <div class="col mb-5">
+                <div class="">
+
+                  Embark on a journey with a select group of biologists and biomedical engineers specializing in
+                  software solutions for biotechnology. Engage in a dynamic, collaborative,
+                  and virtual workshop designed to revolutionize your data management
+                  strategies.
+                </div>
+                <div class="mt-4">
+                  
+                  No matter your expertise in biotech, you'll be infused with innovative
+                  ideas, motivated to excel, and equipped with a comprehensive plan to
+                  navigate the next 12 months of your experimental data pipeline.
+                </div>
+                <div class="mt-4">
+                  
+                  During the Data Pipeline Acceleration Program, you and your peers will
+                  delve into every facet of your data management practice. From refining your
+                  data collection methods to integrating cutting-edge tools and techniques,
+                  you'll be on the express path to enhancing your research outcomes.
+                </div>
+                <div class="mt-4">
+                  
+                  It's energetic. It's empowering. It's educational. It's the most engaging
+                  and productive group experience for software engineers and biologists in the
+                  biotech field.
+                </div>
+              <div class="">
+                  Plus, it's the most thorough and data-driven approach to feature delivery you've ever seen. You'll learn techniques born from building photonics products from the ground up, and from working with tissue engineers developing processes that grow human tissue.
+              </div>
+              <div class="mt-4">
+                <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                    Learn More<i class="material-icons">arrow_forward</i>
+                </a>
+              </div><!-- link div --->
+              </div>
+            </div><!-- row -->
+          </div><!-- tab-pane -->
+
+          <div class="tab-pane fade" id="mobilegrouplearningtab2">
+            <div class="row pb-3 pt-3 fs-5 bg-white">
+              <div class="col">
+                <div class="text-bold">Version Control and Traceability</div>
+              </div>
+            </div><!-- row -->
+            <div class="row p-2 fs-6 bg-white">
+              <div class="col mb-5">
+                <div class="">
+                  Consistently increase the quality of your data acquisition process by adding version control and traceability techniques and procedures.  We understand the complexities of       
+                  managing experimental data and can show you how to build in:
+                </div>
+                <div class="mt-4">                                  
+                  <ul>
+                    <li>
+
+                      A robust, efficient pipeline for handling your experimental data        
+                    </li>
+                    <li>
+                      Relief from the uncertainty of managing complex datasets                
+                    </li>                    
+                    <li>
+
+                      A strategic plan for data management that's proven effective for        
+                      biologists                                                              
+                    </li>
+                    <li>
+                      The resource and time preserving benefits of a streamlined data management    
+                      system                                                                  
+                    </li>
+                    <li>
+                      Increased confidence in your data integrity and reproducibility         
+                    </li>
+                    <li>
+                      Comprehensive knowledge of data management best practices...and the                             tools to implement them                                                 
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt">
+                  This includes live Q&A sessions with Nathan plus access to an online vault filled with pipeline-building lessons.
+                </div>
+                <div class="mt-4">
+                  <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                    Learn More<i class="material-icons">arrow_forward</i>
+                  </a>
+                </div><!-- link div --->
+              </div>
+            </div><!-- row -->
+          </div><!-- tab-pane -->
+
+          <div class="tab-pane fade" id="mobilegrouplearningtab3">
+            <div class="row pb-3 pt-3 fs-5 bg-white">
+              <div class="col">
+                <div class="text-bold">Automation Without Complication</div>
+              </div>
+            </div><!-- row -->
+            <div class="row p-2 fs-6 bg-white">
+              <div class="col mb-5">
+                <div class="">
+                  You have almost everything you need to automate your experiements without adding variability and confusion. – you’re just missing a couple of critical ingredients. Ingredients you will learn in this program.
+
+                </div>
+                <div class="mt-4">
+                  In this online program you’ll learn how to:
+                </div>
+                <div class="">
+                  <ul>
+                    <li>
+                      Create tight loops around the data collection and evaluation steps.
+                    </li>
+                    <li>
+                      Ensure you're recording the right data at the right rates.
+                    </li>                    
+                    <li>
+                      Build automated regression tests so you know that as the experimental protocols change, your data collection won't break.
+                    </li>
+                    <li>
+                      Provide traceability at all stages in the data pipeline to ensure scientists have full confidence in the recording process.
+                    </li>
+                    <li>
+                      Add events and alerts, saving your experiments from failures and your scientists from tedious lab monitoring.
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-4">
+                  <a href="../contact/index.html" class="btn btn-outline-cordince-red">
+                    Learn More<i class="material-icons">arrow_forward</i>
+                  </a>
+                </div><!-- link div --->
+              </div>
+            </div><!-- row -->
+          </div><!-- tab-pane -->
+
+        </div><!-- tab-content --> 
+      </div><!-- col -->
+    </div><!-- row -->
+    
+  </div><!-- container -->
+</section>
+  <section class="featured-section d-none d-md-flex justify-content-center align-items-center">
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <div class="card pb-5">
+            <div class="card-header">
+              <span class="p-0 p-md-5 fs-2 font-weight-bold text-cordince-red text-uppercase">Featured Consulting Insights</span>
+            </div>
+            <div class="card-body pb-0 pb-md-5">
+              <div class="row px-5">
+
+
+                
+              
+                  <div class="col-md-4 mt-md-0 pe-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="../blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <p class="card-text"><svg width="100px" height="10px" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 90,5 M 85,1 L 100,5 L 85,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(10px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            
+                            <a href="../blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                
+              
+                  <div class="col-md-4 mt-md-0 pe-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="/blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <p class="card-text"><svg width="100px" height="10px" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 90,5 M 85,1 L 100,5 L 85,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(10px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            
+                            <a href="/blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                
+              
+                  <div class="col-md-4 mt-md-0 pe-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="/blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row mt-4">
+                        <div class="col">
+                          <p class="card-text"><svg width="100px" height="10px" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 90,5 M 85,1 L 100,5 L 85,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(10px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            
+                            <a href="/blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                
+              </div><!-- row -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="d-md-none mobile-featured-section d-flex justify-content-center align-items-center ">
+    <div class="container py-5 my-5">
+      <div class="row">
+        <div class="col">
+          <div class="card pb-5">
+            <div class="card-header">
+              <span class="p-0 p-md-5 fs-3 font-weight-bold text-cordince-red text-uppercase">Featured Consulting Insights</span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+            
+                  
+              
+                  <div class="col-md-4 mt-md-0 pe-5 mb-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="../blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row ">
+                        <div class="col">
+                          <p class="card-text"><svg width="50px" height="10px" viewBox="0 0 25 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 45,5 M 40,1 L 50,5 L 40,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(5px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            <a href="../blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                
+              
+                  <div class="col-md-4 mt-md-0 pe-5 mb-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="/blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row ">
+                        <div class="col">
+                          <p class="card-text"><svg width="50px" height="10px" viewBox="0 0 25 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 45,5 M 40,1 L 50,5 L 40,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(5px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            <a href="/blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                
+              
+                  <div class="col-md-4 mt-md-0 pe-5 mb-5">                  
+                    
+                    <div class="blog-summary">
+                      <p class="text-muted mb-0" style="font-size: small;">a year ago</p>
+                      <a href="/blog/14.html"><h6 class="text-cordince-red">Decision Inertia</h6></a>
+                      <div class="row ">
+                        <div class="col">
+                          <p class="card-text"><svg width="50px" height="10px" viewBox="0 0 25 10" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 0,5 L 45,5 M 40,1 L 50,5 L 40,9" stroke="#ff6666" stroke-width="1" fill="none">
+                                <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" begin="0s" repeatCount="indefinite" />
+                              </path>
+                              <style>
+                                svg:hover path {
+                                  animation: scrollArrow 1s linear infinite;
+                                }
+                                @keyframes scrollArrow {
+                                  from {
+                                    transform: translateX(0);
+                                  }
+                                  to {
+                                    transform: translateX(5px);
+                                  }
+                                }
+                              </style>
+                            </svg>
+                            <a href="/blog/14.html" class="text-gray-600 ms-3">
+                              Read more
+                            </a>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- blog summary -->
+                  </div><!-- col -->
+
+                        
+                </div><!-- row -->
+            </div><!-- card body -->
+          </div><!-- card -->
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </section>
+
+
+
+    <footer class="footer  pb-5 bg-gradient-dark">
+    <div class="container-fluid text-white">
+      <div class="row g-0 d-flex justify-content-center">
+        <div class="col-md-3 mt-5">
+          <div class="pb-3">FOR MORE INFORMATION</div>
+          <div>
+            <a class="text-white pe-5" href="tel:+19192673558">+1.919.267.3558</a>
+            <a class="text-white" href="mailto:info@cordince.com">info@cordince.com</a> 
+          </div>
+        </div><!-- col -->
+        <div class="col-md-3 mt-5">
+          <div>CORDINCE ORGAN ENGINEERING</div>
+          <div>
+            <!-- copyright in small text with inline javascript that updates the year. -->
+            <small>&copy; 2016 - <script>document.write(new Date().getFullYear())</script> Cordince, LLC all rights reserved.</small>
+          </div>
+        </div><!-- col -->
+        <div class="col-md-3 mt-5">
+          <div>LET'S CONNECT</div>
+          <div class="mt-3">
+            <!-- font awesome twitter icon  2x the normal size-->
+            <a class="text-white" href="https://github.com/Cordince"><i class="fab fa-github pe-5 fs-4"></i></a>
+            <!-- font awesome linkedin icon -->
+            <a class="text-white" href="https://www.linkedin.com/company/cordince-llc/"><i class="fab fa-linkedin-in pe-5 fs-4"></i></a>
+          </div>
+        </div><!-- col -->
+          
+      </div><!-- row -->
+    </div>
+  </footer>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/typedjs.js"></script>
+  <script src="../assets/js/plugins/countup.min.js"></script>
+  <script src="../assets/js/plugins/rellax.min.js"></script>
+  <script src="../assets/js/plugins/tilt.min.js"></script>
+  <script src="../assets/js/plugins/choices.min.js"></script>
+  <script src="../assets/js/plugins/parallax.min.js"></script>
+  <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/anime.min.js" type="text/javascript"></script>
+  <script src="../assets/js/material-kit-pro.min.js" type="text/javascript"></script>
+
+  <script>
+
+
+  </script>
+<script>
+  window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('topNavBar');
+    // If the classList for the navbar is empty, exit the function. 
+    // This is to prevent the navbar from appearing when it is not supposed to.
+    if (!navbar || !navbar.classList) {
+      return;
+    }
+    if (window.scrollY > 0) {
+      navbar.classList.add('d-none');
+    } else {
+      navbar.classList.remove('d-none');
+      navbar.classList.add('d-block');
+    }
+  });
+</script>
+
+
+<script>
+  window.onscroll = function() {
+
+     // Only proceed if the topNavBar is not visible 
+      function isNavbarVisible() {
+        var navbar = document.getElementById('mobileNavBar');
+        if (navbar) {
+          var style = window.getComputedStyle(navbar);
+          return style.display !== 'none' && style.visibility !== 'hidden' && navbar.offsetHeight > 0;
+        } else {
+          return false; // The navbar does not exist in the DOM
+        }
+      }
+
+      if (isNavbarVisible()){
+        return;
+      }
+
+      var currentScrollPos = window.pageYOffset;
+      var navbar = document.getElementById("main-navbar");
+
+      if (currentScrollPos > window.innerHeight-150) { // Adjust the value according to your needs
+          navbar.style.display = "block";
+      } else {
+          navbar.style.display = "none";
+      }
+  };
+</script>
+
+</body>
+<script>
+    // When the document is loaded, hide the main bar if in mobile view 
+  
+  window.onload = function() {
+    
+    // Only proceed if the topNavBar is not visible 
+    function isNavbarVisible() {
+      var navbar = document.getElementById('mobileNavBar');
+       if (navbar) {
+         var style = window.getComputedStyle(navbar);
+         return style.display !== 'none' && style.visibility !== 'hidden' && navbar.offsetHeight > 0;
+        } else {
+          return false; // The navbar does not exist in the DOM
+        }
+      }
+      
+     if (isNavbarVisible()){
+        var main_bar = document.getElementById('always-on-main-navbar');
+        main_bar.style.display = "none";
+      }
+      
+    };
+  </script>
+
+</html>
